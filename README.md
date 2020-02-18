@@ -1,4 +1,4 @@
-# SLIC
+# SLIC Superpixels
 
 This repository offers the code for the Simple Linear Iterative Clustering (SLIC) algorithm with a Python and Matlab interface. In both case a demo file is provided, which should be easy to use. Both versions can produce superpixels for grey, color, as well as images with any other number of channels. If you use the code, please cite the following publication:
 
