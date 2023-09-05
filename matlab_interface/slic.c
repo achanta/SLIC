@@ -283,7 +283,7 @@ void EnforceSuperpixelConnectivity(int* labels, int width, int height, int numSu
 
 	for( i = 0; i < sz; i++ ) nlabels[i] = -1;
     oindex = 0;
-    adjlabel = -1;//adjacent label
+    adjlabel = 0;//adjacent label default value is the label of the first cluster
     label = 0;
 	for( j = 0; j < height; j++ )
 	{
